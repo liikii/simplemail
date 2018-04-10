@@ -43,3 +43,10 @@ def sent_mail(s, f, t, p, sbj, txt_msg, html_msg, cc=None):
     m.quit()
     print('ok')
 
+
+sent_mail('smtp.guanajuato.com',
+          "from@guanajuato.com", 
+          ["to0@guanajuato.com", "to1@guanajuato.net"],
+          'guanajuato_password', 'hello guanajuato subject',
+          'hello guanajuato text',
+          '<a href="http://www.guanajuato.com">it\'s a link</a>')
