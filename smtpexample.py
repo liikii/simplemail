@@ -1,6 +1,9 @@
 # -*- encoding: utf8 -*-
 """
 smtp example.
+-------------------
+reference:
+https://en.wikipedia.org/wiki/Email
 """
 from smtplib import SMTP_SSL
 from email.mime.multipart import MIMEMultipart
